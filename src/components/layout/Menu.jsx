@@ -3,7 +3,16 @@ import React from 'react';
 
 const Menu = props => (
     <aside className="menu">
-        Componente Menu
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Início</a>
+                </li>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+            </ul>
+        </nav>
     </aside>
 )
 
